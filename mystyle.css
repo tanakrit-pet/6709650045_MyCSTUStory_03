@@ -101,3 +101,8 @@ a{
     color: #d2d2b9;
     padding: 20px;
 }
+
+.nav {
+    display: flex; /* Makes this a flex container */
+    background-color: rgb(248, 17, 17);
+}
