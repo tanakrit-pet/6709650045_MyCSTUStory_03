@@ -110,17 +110,16 @@ a{
     gap: 20px; 
     overflow: hidden;
     justify-content: space-around; /* กระจายข้อความให้อยู่ในบรรทัดเดียว */
-}
-
-.nav a {
-    font-size: 2.5vw;
-    white-space: nowrap; 
+    white-space: nowrap;
 }
 
 @media screen and (max-width: 600px) {
     .nav a {
-        font-size: 30px;
+        font-size: 3.5vh;
         flex-direction: row;
+    }
+    .nad {
+        font-size: 9vh;
     }
 }
 
@@ -128,9 +127,16 @@ a{
     .nav a {
         font-size: 40px;
     }
+    .nad {
+        font-size: 9.5vh;
+    }
 }
 
 .nad{
-    font-size: 9vw;
     white-space: nowrap;
+}
+
+.profileul{
+    white-space: nowrap;
+    font-size: 6.5vh;
 }
