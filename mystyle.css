@@ -1,0 +1,103 @@
+body{
+    background-image: url(resources/Anime_Pastel_Dream_gradient_light_grey_smoke_wallpaper_1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    font-size: 180px;
+}
+h2{
+    font-size: 150px;
+}
+h3{
+    font-size: 100px;
+}
+.profileul{
+    font-size: 40px;
+}
+table{
+    text-align: left ;
+}
+#he{
+    font-size: 150px;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFF0;
+}
+.profileul{
+    color: rgb(36, 19, 100);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100% ;
+    font-family: Arial, sans-serif;
+}
+/* MY Future */
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 0, 0);
+    border: 1px solid gray;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFF0;
+    font-size: 50px;
+    
+}
+nav {
+    float: left;
+    height: 200px;
+    width: 20% ;
+    padding: 10px;
+    background-color: rgba(255, 255, 0, 0);
+    border: 1px solid gray;
+    text-align: center;
+    color: #FFFFF0;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+}
+article {
+    float: left;
+    height: 200px;
+    width: 80% ;
+    padding: 10px;
+    background-color: rgba(255, 255, 0, 0);
+    border: 1px solid rgba(128, 128, 128, 0);
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFF0;
+    font-size: 30px;
+}
+footer {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(255, 255, 0, 0);
+    border: 1px solid gray;
+    text-align: center;
+    clear: both;
+    font-family: "Oswald", sans-serif;
+    color: #FFFFF0;
+    font-size: 30px;
+}
+#kl{
+    height: 900px;
+    width: 50%;
+}
+p{
+    color: #FFFFF0;
+    font-weight: 900;
+    font-family: "Oswald", sans-serif;
+    font-size: 30px;
+}
+.nav li{
+    display: inline;
+    font-family: "Oswald", sans-serif;
+    font-size: 40px;
+}
+a{
+    color: #d2d2b9;
+    padding: 20px;
+}
