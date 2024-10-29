@@ -103,6 +103,34 @@ a{
 }
 
 .nav {
-    display: flex; /* Makes this a flex container */
-    background-color: rgb(248, 17, 17);
+    background-color: rgba(0, 0, 0, 0.299);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px; 
+    overflow: hidden;
+    justify-content: space-around; /* กระจายข้อความให้อยู่ในบรรทัดเดียว */
+}
+
+.nav a {
+    font-size: 2.5vw;
+    white-space: nowrap; 
+}
+
+@media screen and (max-width: 600px) {
+    .nav a {
+        font-size: 30px;
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+    .nav a {
+        font-size: 40px;
+    }
+}
+
+.nad{
+    font-size: 9vw;
+    white-space: nowrap;
 }
