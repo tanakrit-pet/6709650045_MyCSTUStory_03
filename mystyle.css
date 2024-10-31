@@ -18,14 +18,15 @@ h3{
 table{
     text-align: left ;
 }
-#he{
-    font-size: 150px;
+.naf {
+    font-size: 130px;
     font-family: "Oswald", sans-serif;
     color: #FFFFF0;
 }
 .profileul{
     color: rgb(36, 19, 100);
 }
+
 *{
     padding: 0px;
     margin: 0px;
@@ -112,8 +113,59 @@ a{
     justify-content: space-around; /* กระจายข้อความให้อยู่ในบรรทัดเดียว */
     white-space: nowrap;
 }
+.nad {
+    white-space: nowrap;
+}
 
+.naf {
+    display: inline-block; 
+    white-space: nowrap;
+}
+
+.profileul {
+    white-space: nowrap;
+    font-size: 6.5vh;
+} 
+
+.nag {
+    white-space: nowrap;
+    text-align: center;
+    width: 100%;
+    font-size: 6vh;
+}
+
+.nam {
+    display: flex; 
+    justify-content: space-around; 
+    flex-wrap: wrap; 
+}
+
+.nap {
+    display: flex; /* ใช้ flexbox */
+    justify-content: center; /* จัดข้อความให้อยู่กลาง */
+    align-items: center; /* จัดแนวตั้งให้อยู่กลาง */
+}
+
+.sidebar{
+    font-size: 25px;
+    white-space: nowrap;
+}
+.nau{
+    white-space: nowrap;
+    align-items: center;
+}
+
+
+#kl {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 @media screen and (max-width: 600px) {
+    .sidebar{
+       font-size: 10px; 
+    }
     .nav a {
         font-size: 3.5vh;
         flex-direction: row;
@@ -121,22 +173,49 @@ a{
     .nad {
         font-size: 9vh;
     }
+    .naf {
+        font-size: 4vh;
+        white-space: nowrap;
+    }
+    .profileul {
+        font-size: 2px;
+    }
+    .nag {
+        font-size: 2vh;
+    }
+    .nap {    
+        font-size: 3vh;
+    }
+    .nam{
+        font-size: 1.4vh;
+    }
+    .nau{
+        font-size: 1vh;
+    }
 }
 
-@media screen and (min-width: 601px) and (max-width: 992px) {
+@media screen and (min-width: 601px) and (max-width: 1200px) {
     .nav a {
         font-size: 40px;
     }
     .nad {
         font-size: 9.5vh;
     }
+    .naf {
+        font-size: 4vh;
+        white-space: nowrap;
+    }
+    .nag {
+        font-size: 4vh;
+    }
+    .nam{
+        font-size: 3vh;
+    }
+    .nau{
+        font-size: 2.5vh;
+    }
 }
 
-.nad{
-    white-space: nowrap;
-}
 
-.profileul{
-    white-space: nowrap;
-    font-size: 6.5vh;
-}
+
+
