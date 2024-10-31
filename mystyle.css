@@ -171,14 +171,14 @@ a{
         flex-direction: row;
     }
     .nad {
-        font-size: 9vh;
+        font-size: 6vh;
     }
     .naf {
-        font-size: 4vh;
+        font-size: 6vh;
         white-space: nowrap;
     }
     .profileul {
-        font-size: 2px;
+        font-size: 5vh;
     }
     .nag {
         font-size: 2vh;
@@ -199,10 +199,10 @@ a{
         font-size: 40px;
     }
     .nad {
-        font-size: 9.5vh;
+        font-size: 9vh;
     }
     .naf {
-        font-size: 4vh;
+        font-size: 11vh;
         white-space: nowrap;
     }
     .nag {
